@@ -1,0 +1,21 @@
+(venv) theia:devops-capstone-project$ gh run view 31151568519 --verbose
+
+✓ main CI Build · 31151568519
+Triggered via push 4 minutes ago
+
+JOBS
+✓ build in 43s (ID 12458937612)
+  ✓ Set up job                         1s
+  ✓ Initialize containers              3s
+  ✓ Checkout                           2s
+  ✓ Install dependencies               8s
+  ✓ Lint with flake8                   5s
+  ✓ Run unit tests with nose          15s
+  ✓ Post Checkout                      0s
+  ✓ Stop containers                    2s
+  ✓ Complete job                       0s
+
+For more information about a job, try: gh run view --job=<job-id>
+View this run on GitHub: https://github.com/joyantabd/devops-capstone-project/actions/runs/31151568519
+
+(venv) theia:devops-capstone-project$
